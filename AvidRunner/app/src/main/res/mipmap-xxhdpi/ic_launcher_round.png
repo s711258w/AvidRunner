@@ -1,0 +1,184 @@
+package edu.uw.s711258w.sunspotter
+
+import android.support.v7.app.AppCompatActivity
+import android.os.Bundle
+import android.view.LayoutInflater;
+import java.net.URLEncoder
+import java.io.UnsupportedEncodingException
+import android.util.Log
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response
+import com.android.volley.toolbox.*
+import org.json.JSONException
+import java.util.*
+import android.content.Context;
+import android.support.v4.util.LruCache;
+import android.graphics.Bitmap;
+import android.graphics.Color
+import android.os.PersistableBundle
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.*
+
+
+class MainActivity : AppCompatActivity() {
+
+    private val TAG = "MainActivity"
+    private val CITY_NAME = "city_name"
+
+
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        if (savedInstanceState != null) {
+            findViewById<TextView>(R.id.plain_text_input).setText(savedInstanceState.getString(CITY_NAME));
+            getWeatherData(findViewById<TextView>(R.id.plain_text_input).text.toString());
+        }
+        val searchField = findViewById<EditText>(R.id.plain_text_input).text.toString()
+        val searchButton = findViewById<Button>(R.id.findSun)
+        searchButton.setOnClickListener {
+            val get_city = searchField
+            getWeatherData(get_city)
+        }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        val city = findViewById<EditText>(R.id.plain_text_input).text.toString()
+        outState.putString(CITY_NAME, city)
+        super.onSaveInstanceState(outState)
+    }
+
+
+    fun getWeatherData(searchField: String) {
+                val url: String = "api.openweathermap.org/data/2.5/forecast?format=json&units=imperial" + "&q=" + searchField + getString(R.string.OPEN_WEATHER_MAP_API_KEY)
+
+                val request = JsonObjectRequest(Request.Method.GET, url, null,
+                        Response.Listener { response ->
+                            val data = ArrayList<ForecastData>()
+                            var sunny = false
+                            var sunDescription = ""
+                            try {
+                                val results = response.getJSONArray("list")
+                                for (i in 0..results.length()) {
+                                    val instance = results.getJSONObject(i)
+                                    val seconds = instance.getLong("dt")
+
+                                    val main = instance.getJSONObject("main")
+                                    val temp = "(" + main.getJSONObject("temp") + ")"
+
+                                    val weather = instance.getJSONArray("weather")
+                                    val weatherDesc = weather.getJSONObject(0).getString("main") + "@"
+
+                                    val bigDate = findViewById<TextView>(R.id.sunOrNo)
+                                    val convertedDate = Date(seconds * 1000).toString()
+                                    bigDate.setText(convertedDate)
+
+                                    val icon = weather.getJSONObject(0).getString("icon")
+                                    val singleForecastData = ForecastData(icon.toString(), weatherDesc.toString(), convertedDate, temp.toString())
+                                    data.add(singleForecastData)
+
+                                    if (!sunny && weatherDesc == "Clear") {
+                                        sunny = true
+                                        sunDescription = convertedDate
+                                    }
+
+                                }
+                            } catch (e: JSONException) {
+                                e.printStackTrace()
+                            }
+
+                            val weatherTxt = findViewById<TextView>(R.id.sunOrNo)
+                            val pic = findViewById<ImageView>(R.id.firstPicture)
+                            val timeTxt = findViewById<TextView>(R.id.sunTime)
+                            if (sunny) {
+                                weatherTxt.setText("There will be sun!")
+                                timeTxt.setText("At" + sunDescription)
+                                pic.setImageResource(R.drawable.ic_check_circle_black_24dp)
+                                pic.setColorFilter(Color.parseColor("yellow"))
+                            } else {
+                                weatherTxt.setText("No sun")
+                                pic.setImageResource(R.drawable.ic_highlight_off_black_24dp)
+                                pic.setColorFilter(Color.parseColor("red"))
+
+                            }
+                            val forecastDataAdapter = ForecastAdapter(this, data)
+                            val listView = findViewById<ListView>(R.id.list_view)
+                            val gridView = findViewById<GridView>(R.id.list_view)
+                            listView.adapter = forecastDataAdapter
+                            gridView.adapter = forecastDataAdapter
+                        }, Response.ErrorListener {error -> Log.e(TAG, error.toString()) })
+
+                        VolleyService.getInstance(this).add(request)
+            }
+
+
+    private class VolleyService private constructor(ctx: Context) {
+
+            companion object {
+                private lateinit var instance: VolleyService
+                fun getInstance(ctx: Context): VolleyService {
+                    if (instance == null) {
+                        instance = VolleyService(ctx)
+                    }
+
+                    return instance as VolleyService
+                }
+            }
+            val requestQueue: RequestQueue by lazy{
+                Volley.newRequestQueue(ctx.applicationContext)
+            }
+
+        val imageLoader: ImageLoader by lazy {
+            ImageLoader(requestQueue,
+                    object : ImageLoader.ImageCache {
+                        private val cache = LruCache<String, Bitmap>(20)
+                        override fun getBitmap(url: String): Bitmap? {
+                            return cache.get(url)
+                        }
+
+                        override fun putBitmap(url: String, bitmap: Bitmap) {
+                            cache.put(url, bitmap)
+                        }
+                    })
+        }
+        fun <T> add(req: Request<T>) {
+            requestQueue.add(req)
+        }
+        }
+
+
+
+
+
+    data class ForecastData(val icon: String, val weather: String, val dayTime: String, val temp: String)
+
+    private class ForecastAdapter(context: Context, users: ArrayList<ForecastData>) : ArrayAdapter<ForecastData>(context, 0, users) {
+        override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+            var convertView = convertView
+
+            val data:ForecastData = getItem(position)
+
+            if (convertView == null) {
+                convertView = LayoutInflater.from(context).inflate(R.layout.list_item, parent, false)
+            }
+
+            val weather_desc = convertView!!.findViewById(R.id.txt_weather_desc) as TextView
+            val date_time = convertView!!.findViewById(R.id.txt_date_time) as TextView
+            val temp = convertView!!.findViewById(R.id.txt_temp) as TextView
+            val icon = convertView!!.findViewById(R.id.img_weather) as ImageView
+
+            weather_desc.setText(data.weather)
+            date_time.setText(" " + data.dayTime)
+            temp.setText(data.temp + " \u2109)")
+            val iconName:String = "icon" + data.icon
+            icon.setImageResource(context.resources.getIdentifier(iconName, "drawable", context.applicationContext.packageName))
+            return convertView
+        }
+    }
+
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

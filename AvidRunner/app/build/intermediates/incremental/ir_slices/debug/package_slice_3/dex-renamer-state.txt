@@ -1,0 +1,4 @@
+#Wed Nov 28 10:12:18 PST 2018
+base.0=C\:\\Users\\Stanley\\Desktop\\Android448\\AvidRunner\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex
