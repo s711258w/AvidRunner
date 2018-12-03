@@ -54,6 +54,8 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
             spinner.adapter = adapter
         }
         spinner.onItemSelectedListener = this
+
+
     }
 
     override fun onItemSelected(parent: AdapterView<*>, view: View, pos: Int, id: Long) {
@@ -92,6 +94,10 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         return when (item.itemId) {
             R.id.preferences -> {
                 startActivity(Intent(this, SettingsActivity::class.java))
+                true
+            }
+            R.id.playlist -> {
+                startActivity(Intent(this, PlaylistActivity::class.java))
                 true
             }
             else -> super.onOptionsItemSelected(item)

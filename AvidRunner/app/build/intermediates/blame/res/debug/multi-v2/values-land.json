@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Stanley\\Desktop\\Android448\\AvidRunner\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "/Users/Vanely/Desktop/INFO-448/AvidRunner/AvidRunner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Stanley\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\60f34d8fd7ebe68c55a89301c2d9d3a9\\res\\values-land\\values-land.xml",
+                    "source": "/Users/Vanely/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/7fcbdd68c7a563bf6440d817cd035740/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

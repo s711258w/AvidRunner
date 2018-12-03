@@ -9,6 +9,9 @@ class SettingsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        //action bar "back"
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+
         fragmentManager.beginTransaction()
             .replace(android.R.id.content, SettingsFragment())
             .commit()

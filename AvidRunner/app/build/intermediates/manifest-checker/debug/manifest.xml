@@ -9,6 +9,7 @@
         android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -27,7 +28,38 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="edu.uw.s711258w.avidrunner.SettingsActivity" >
+        <activity
+            android:name="edu.uw.s711258w.avidrunner.SettingsActivity"
+            android:parentActivityName="edu.uw.s711258w.avidrunner.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.uw.s711258w.avidrunner.MainActivity" />
+        </activity>
+        <activity
+            android:name="edu.uw.s711258w.avidrunner.PlaylistActivity"
+            android:label="@string/title_playlist_activity"
+            android:parentActivityName="edu.uw.s711258w.avidrunner.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.uw.s711258w.avidrunner.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.spotify.sdk.android.authentication.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.spotify.sdk.android.authentication.AuthCallbackActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/com_spotify_sdk_redirect_host"
+                    android:scheme="@string/com_spotify_sdk_redirect_scheme" />
+            </intent-filter>
         </activity>
 
         <provider
