@@ -100,6 +100,10 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
                 startActivity(Intent(this, PlaylistActivity::class.java))
                 true
             }
+            R.id.start_run -> {
+                startActivity(Intent(this, MapsActivity::class.java))
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }

@@ -4,7 +4,9 @@
         <item>Today</item>
         <item>Tomorrow</item>
     </string-array>
-    
+
+    <string name="title_activity_maps">Map</string>
+
     <!-- PLAYLIST -->
     <string name="title_playlist_activity">Playlist</string>
     <string-array name="scopes">

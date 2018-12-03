@@ -7,5 +7,9 @@
        android:id="@+id/playlist"
        android:title="@string/title_playlist_activity"
     />
+    <item
+            android:id="@+id/start_run"
+            android:title="Start Run"
+    />
 
 </menu>
