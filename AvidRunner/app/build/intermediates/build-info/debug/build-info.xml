@@ -5,8 +5,9 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.2.1"
-    timestamp="1543897604985"
+    timestamp="1543901316235"
     token="3244103349077119653"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -18,13 +19,13 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="11" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
-        location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
 
     <build
@@ -75,28 +76,28 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1543897407222"
+        timestamp="1543900782084"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
+            location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -110,10 +111,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1543897604985"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1543901316235"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
     </build>
 
