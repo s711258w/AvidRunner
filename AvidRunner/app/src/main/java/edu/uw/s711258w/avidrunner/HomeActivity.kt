@@ -3,17 +3,19 @@ package edu.uw.s711258w.avidrunner
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.os.Parcel
+import android.os.Parcelable
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.*
-import android.widget.Adapter
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.TextView
+import android.widget.*
+import android.view.ViewGroup
 import kotlinx.android.synthetic.main.activity_home.*
+
 
 class HomeActivity: AppCompatActivity() {
     private val TAG = "HomeActivity"
+    private val RUN_DETAIL_FRAGMENT_TAG = "RunDetailFragment"
 
     private lateinit var adapter: RunDataAdapter
 
@@ -42,6 +44,20 @@ class HomeActivity: AppCompatActivity() {
         }
 
         var listView = list_run_history
+        listView.setOnItemClickListener { parent, view, position, id ->
+            val data = adapter.getItem(position)
+
+            val detailFragment: RunDetailFragment = RunDetailFragment.newInstance(data)
+
+            supportFragmentManager.beginTransaction().
+                replace(R.id.home_content_container, detailFragment)
+                    .addToBackStack(null).
+                commit()
+
+
+//            val intent = Intent(this, MapsActivity::class.java)
+//            startActivity(intent)
+        }
 
         // Initialize adapter
         adapter = RunDataAdapter(mContext, R.layout.item_history, runDataList)
@@ -54,9 +70,11 @@ class HomeActivity: AppCompatActivity() {
     }
 
     // Gets the run data
+    // TODO: Need data from running activity (MapsActivity)
     fun getRunData() {
-//        runDataList.clear()
-//        adapter.notifyDataSetChanged()
+        runDataList.clear()
+        adapter.notifyDataSetChanged()
+
         // TODO: Need data from running activity (MapsActivity) to be saved
 
         // using dummy data for now
@@ -67,13 +85,13 @@ class HomeActivity: AppCompatActivity() {
         }
     }
 
+    // generates a list of dummy run data
     fun getDummyData(): List<RunData> {
-        val x = RunData("foo","bar", "baz", "routedata")
-        val y = RunData("afoo","abar", "abaz", "routedata")
-        val z = RunData("bfoo","bbar", "bbaz", "routedata")
-        val a = RunData("cfoo","cbar", "cbaz", "routedata")
-
-        return listOf(x, y, z, a)
+        val result = mutableListOf<RunData>()
+        for(i in 0..30) {
+            result.add(RunData("date:$i", "distance:$i", "time:$i", "routeData:$i"))
+        }
+        return result.toList()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -146,9 +164,31 @@ open class RunDataAdapter(context: Context,
     )
 }
 
-data class RunData(
-    val date: String,
-    val distance: String,
-    val time: String,
-    val routeData: Any
-)
+data class RunData(val date: String, val distance: String, val time: String, val routeData: Any):Parcelable {
+    constructor(parcel: Parcel): this(
+        parcel.readString(),
+        parcel.readString(),
+        parcel.readString(),
+        parcel.readString()
+    ) {
+    }
+
+    override fun writeToParcel(dest: Parcel?, flags: Int) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun describeContents(): Int {
+        return 0
+    }
+
+    companion object CREATOR : Parcelable.Creator<RunData> {
+        override fun createFromParcel(parcel: Parcel): RunData {
+            return RunData(parcel)
+        }
+
+        override fun newArray(size: Int): Array<RunData?> {
+            return arrayOfNulls(size)
+        }
+    }
+
+}

@@ -487,6 +487,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color white
 color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
@@ -820,6 +821,7 @@ id groups
 id header
 id home
 id homeAsUp
+id home_content_container
 id hybrid
 id icon
 id icon_group
@@ -920,6 +922,9 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id text_detail_date
+id text_detail_distance
+id text_detail_time
 id text_history_date
 id text_history_distance
 id text_history_time
@@ -979,6 +984,7 @@ layout activity_maps
 layout activity_playlist
 layout com_spotify_sdk_login_activity
 layout com_spotify_sdk_login_dialog
+layout fragment_run_detail
 layout item_history
 layout layout_colorpicker_preference
 layout layout_dialog_colorpicker

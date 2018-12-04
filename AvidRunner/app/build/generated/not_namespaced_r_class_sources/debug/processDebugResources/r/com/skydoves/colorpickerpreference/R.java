@@ -36,8 +36,8 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int layout_colorpicker_preference = 0x7f0a0023;
-        public static final int layout_dialog_colorpicker = 0x7f0a0024;
+        public static final int layout_colorpicker_preference = 0x7f0a0024;
+        public static final int layout_dialog_colorpicker = 0x7f0a0025;
     }
     public static final class string {
         private string() {}
