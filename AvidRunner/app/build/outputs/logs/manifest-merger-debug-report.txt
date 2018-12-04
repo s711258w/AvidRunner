@@ -1,328 +1,328 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:2:1-68:12
-MERGED from [:spotify-app-remote] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-app-remote-release-0.6.0.aar\15f9e1b45472cf77d310da7c81620081\AndroidManifest.xml:22:1-33:12
-MERGED from [com.github.kaaes:spotify-web-api-android:0.4.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-web-api-android-0.4.1.aar\44244b4cc1b57da1240680ac0c18c1ea\AndroidManifest.xml:2:1-13:12
-MERGED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:22:1-55:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\75424dd7737a278948f61802674ad489\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5e6838be33efd3bdbf96b4db62793a43\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:17:1-32:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\3943d8115df075cb408da2a50dd847d6\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9c878029b4e2a487d3caed168961bf89\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\a418a05dfddf9232cd0bc8a9c4c93953\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\efd691871fa8c0f3eee1dba02d2d3074\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\84a96861a4afec3196bf3496adb332ef\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e4ac9c653fd350bd9485d75188f1b547\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.skydoves:colorpickerpreference:1.0.2] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\colorpickerpreference-1.0.2.aar\1b014b7c1f1329c64921ca4a3ee2f56e\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ef634f803c27981c66b5d2a011c25892\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\19cf74ba1cc40cd464a4aaf552bc36a5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\0af1112067da8314ddc51bdc63e2704f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ac73b63490d846ec83e941869f3a571e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\c9ebf43ae935d66b708b427290fd8846\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e10f02d745775b9055c878a727a252ce\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\6d8283e8db5d0bf6facd46d19ba0c975\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f5aa5dc144a858f4019b5f2325b4d9d6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c027d45cd7340b656ba42f762d8f9cd2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\157c0ccd0dc297daf0e9499aaf68a562\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\28cb6c1032cc75759525be3ac5f0397a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\99010ba65f8226c96399d48c1d2a9c40\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d0a46d5c358bfab43478527d98ba25aa\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\18a1dfc1c97b8dd67665a132eee98526\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b5d472e7009ccc7c3905f83718c7c31\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0bd0869973feb28ed71114a2a352a3f1\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\edd3adc6d4b973f346b5b334b9c3f015\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1de06fddba3ae75b6d9cce633aaf00c0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\a972ff65921e7956e9245001f888f333\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\9b4e54d75dc16996be97de0fc846cbdc\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\e81ca8adf1a290ad7692bee81cd8b34f\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\224b21129355a0c6eb376374bb5911e6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\550eaf701634f3d1623060bf748f62f0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\2bada2ee02bc2a20bc07a70d10ff178f\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\1d413472ee22604cac5f9e2065ae4925\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cf07acfdc085f90f6034278790b3af9f\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:2:1-68:12
-INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:2:1-68:12
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:2:1-68:12
+MERGED from [:spotify-app-remote] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-app-remote-release-0.6.0.aar/d7ae8bdf7b3e8150f3d558cd30bb5892/AndroidManifest.xml:22:1-33:12
+MERGED from [com.github.kaaes:spotify-web-api-android:0.4.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-web-api-android-0.4.1.aar/b5ac7d2a80ea127422307337647a5e7b/AndroidManifest.xml:2:1-13:12
+MERGED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:22:1-55:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/22f5722e3ce46d6d6cf7ec2db9a88197/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/iguest/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/96f2487e669ffaee50cc665c69b1c844/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/68c4feedc4eefaaa18bf2b8292fe89e3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cf468e1af9ffe57e49f0f4ee72ab2fa0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/4db71d979095cdea6de9bd1374b0ce8d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/3ab6bd58ce511ed32210085db5fa4ab1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a5b0a1fe6cc98c75516c01100721a473/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fbe324cd14174490207808fe5dd31e78/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.skydoves:colorpickerpreference:1.0.2] /Users/iguest/.gradle/caches/transforms-1/files-1.1/colorpickerpreference-1.0.2.aar/583f098f53fbf030516c78897ecca43f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3895e70d20ec4831e08a7e926cee905a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0d55ed4444e6b0f81d295c7f052a7708/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1e9ac4e4daa846aab1c2ada4938bfd51/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/3546d61e2b3718b40794612e42dcaf33/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d80ab94021b1df2c0dcc5846c2a8070e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/89dbdd34af7d6966f92259967e72a9bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/83b64008b1564c048534953e19d2a920/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/95b8f57a99e9d0ea95e4bfe2c9a341ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/354317e223e574bd5e4798bcf52dda0e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/7626041b566ff390648489760c2e09bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/eaed94e0c3fdd648cda5f2da3cfffce1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/380facd3688727e2ece76a0bd1df31a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/1e7563a6994d00bfad4ad10f9da4fe63/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/15744f571967a5b22fc2ad218a2fd216/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a13e7261f4ec83aa1837f7c13724bf4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a09da31bb567f76399b2df02e340f0aa/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/cb0b87f182e1519559bfd911d3908cfd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8e8abd1140f4e83742b0cc05fa95dcf3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6370691f32a5f6c7e89710576970fc79/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3532e253aef808f10449f0913ce88e96/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/885be5ce5c5adff0da3e803664257259/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/85f806b13d151e897b8e3daad1c074ef/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/88c6c00b46abade0656518be174eb775/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d5e8eeb76d87ce6d2e66b33bfc147d39/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6f8835b275d6f9e338a6bf4c57d83c5a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8478e5566f240a21791ef658b28bc796/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:2:1-68:12
 	package
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:3:11-47
-		INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:3:11-47
+		INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:2:1-68:12
-		INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:2:1-68:12
+		INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:2:1-68:12
-		INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:2:1-68:12
+		INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_CALENDAR
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:6:5-71
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:6:22-69
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:6:22-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:8:5-81
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:8:22-78
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:10:5-66:19
-MERGED from [:spotify-app-remote] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-app-remote-release-0.6.0.aar\15f9e1b45472cf77d310da7c81620081\AndroidManifest.xml:31:5-20
-MERGED from [:spotify-app-remote] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-app-remote-release-0.6.0.aar\15f9e1b45472cf77d310da7c81620081\AndroidManifest.xml:31:5-20
-MERGED from [com.github.kaaes:spotify-web-api-android:0.4.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-web-api-android-0.4.1.aar\44244b4cc1b57da1240680ac0c18c1ea\AndroidManifest.xml:11:5-20
-MERGED from [com.github.kaaes:spotify-web-api-android:0.4.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-web-api-android-0.4.1.aar\44244b4cc1b57da1240680ac0c18c1ea\AndroidManifest.xml:11:5-20
-MERGED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:33:5-53:19
-MERGED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:33:5-53:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5e6838be33efd3bdbf96b4db62793a43\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5e6838be33efd3bdbf96b4db62793a43\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\3943d8115df075cb408da2a50dd847d6\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\3943d8115df075cb408da2a50dd847d6\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9c878029b4e2a487d3caed168961bf89\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9c878029b4e2a487d3caed168961bf89\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\a418a05dfddf9232cd0bc8a9c4c93953\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\a418a05dfddf9232cd0bc8a9c4c93953\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\efd691871fa8c0f3eee1dba02d2d3074\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\efd691871fa8c0f3eee1dba02d2d3074\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\84a96861a4afec3196bf3496adb332ef\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\84a96861a4afec3196bf3496adb332ef\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b5d472e7009ccc7c3905f83718c7c31\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b5d472e7009ccc7c3905f83718c7c31\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0bd0869973feb28ed71114a2a352a3f1\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0bd0869973feb28ed71114a2a352a3f1\AndroidManifest.xml:22:5-23:19
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:10:5-66:19
+MERGED from [:spotify-app-remote] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-app-remote-release-0.6.0.aar/d7ae8bdf7b3e8150f3d558cd30bb5892/AndroidManifest.xml:31:5-20
+MERGED from [:spotify-app-remote] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-app-remote-release-0.6.0.aar/d7ae8bdf7b3e8150f3d558cd30bb5892/AndroidManifest.xml:31:5-20
+MERGED from [com.github.kaaes:spotify-web-api-android:0.4.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-web-api-android-0.4.1.aar/b5ac7d2a80ea127422307337647a5e7b/AndroidManifest.xml:11:5-20
+MERGED from [com.github.kaaes:spotify-web-api-android:0.4.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-web-api-android-0.4.1.aar/b5ac7d2a80ea127422307337647a5e7b/AndroidManifest.xml:11:5-20
+MERGED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:33:5-53:19
+MERGED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:33:5-53:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/iguest/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/96f2487e669ffaee50cc665c69b1c844/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/iguest/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/96f2487e669ffaee50cc665c69b1c844/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/68c4feedc4eefaaa18bf2b8292fe89e3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/68c4feedc4eefaaa18bf2b8292fe89e3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cf468e1af9ffe57e49f0f4ee72ab2fa0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cf468e1af9ffe57e49f0f4ee72ab2fa0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/4db71d979095cdea6de9bd1374b0ce8d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/4db71d979095cdea6de9bd1374b0ce8d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/3ab6bd58ce511ed32210085db5fa4ab1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/3ab6bd58ce511ed32210085db5fa4ab1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a5b0a1fe6cc98c75516c01100721a473/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a5b0a1fe6cc98c75516c01100721a473/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a13e7261f4ec83aa1837f7c13724bf4/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a13e7261f4ec83aa1837f7c13724bf4/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a09da31bb567f76399b2df02e340f0aa/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a09da31bb567f76399b2df02e340f0aa/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b5d472e7009ccc7c3905f83718c7c31\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a13e7261f4ec83aa1837f7c13724bf4/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:15:13-39
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:15:13-39
 	android:label
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:13:13-45
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:13:13-45
 	android:roundIcon
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:14:13-58
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:14:13-58
 	android:icon
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:12:13-47
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:12:13-47
 	android:allowBackup
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:11:13-39
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:11:13-39
 	android:theme
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:16:13-44
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:16:13-44
 uses-library#org.apache.http.legacy
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:18:9-88
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:18:9-88
 	android:required
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:18:61-85
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:18:61-85
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:18:23-60
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:18:23-60
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:20:9-22:59
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:20:9-22:59
 	android:value
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:22:17-56
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:22:17-56
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:21:17-62
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:21:17-62
 activity#edu.uw.s711258w.avidrunner.MainActivity
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:24:9-26:20
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:24:9-26:20
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:25:17-71
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:25:17-71
 activity#edu.uw.s711258w.avidrunner.SettingsActivity
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:28:9-34:20
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:28:9-34:20
 	android:parentActivityName
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:30:13-81
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:30:13-81
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:29:13-71
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:29:13-71
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:31:13-33:75
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:31:13-33:75
 	android:value
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:33:17-72
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:33:17-72
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:32:17-63
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:32:17-63
 activity#edu.uw.s711258w.avidrunner.PlaylistActivity
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:36:9-43:20
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:36:9-43:20
 	android:parentActivityName
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:39:13-81
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:39:13-81
 	android:label
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:38:13-60
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:38:13-60
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:37:13-71
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:37:13-71
 activity#edu.uw.s711258w.avidrunner.MapsActivity
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:45:9-51:20
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:45:9-51:20
 	android:label
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:47:17-60
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:47:17-60
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:46:17-45
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:46:17-45
 activity#edu.uw.s711258w.avidrunner.HomeActivity
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:53:9-61:20
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:53:9-61:20
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:53:19-47
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:53:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:55:13-59:29
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:55:13-59:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:56:17-68
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:56:17-68
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:56:25-66
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:58:17-76
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:58:17-76
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:58:27-74
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:58:27-74
 activity#com.spotify.sdk.android.authentication.LoginActivity
-ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:63:9-65:75
-MERGED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:49:9-52:20
-MERGED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:49:9-52:20
+ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:63:9-65:75
+MERGED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:49:9-52:20
+MERGED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:49:9-52:20
 	android:theme
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:65:13-72
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:65:13-72
 	android:name
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml:64:13-80
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml:64:13-80
 uses-sdk
-INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
-MERGED from [:spotify-app-remote] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-app-remote-release-0.6.0.aar\15f9e1b45472cf77d310da7c81620081\AndroidManifest.xml:27:5-29:41
-MERGED from [:spotify-app-remote] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-app-remote-release-0.6.0.aar\15f9e1b45472cf77d310da7c81620081\AndroidManifest.xml:27:5-29:41
-MERGED from [com.github.kaaes:spotify-web-api-android:0.4.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-web-api-android-0.4.1.aar\44244b4cc1b57da1240680ac0c18c1ea\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.kaaes:spotify-web-api-android:0.4.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-web-api-android-0.4.1.aar\44244b4cc1b57da1240680ac0c18c1ea\AndroidManifest.xml:6:5-8:41
-MERGED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:27:5-29:41
-MERGED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:27:5-29:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\75424dd7737a278948f61802674ad489\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\75424dd7737a278948f61802674ad489\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5e6838be33efd3bdbf96b4db62793a43\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5e6838be33efd3bdbf96b4db62793a43\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\3943d8115df075cb408da2a50dd847d6\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\3943d8115df075cb408da2a50dd847d6\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9c878029b4e2a487d3caed168961bf89\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9c878029b4e2a487d3caed168961bf89\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\a418a05dfddf9232cd0bc8a9c4c93953\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\a418a05dfddf9232cd0bc8a9c4c93953\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\efd691871fa8c0f3eee1dba02d2d3074\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\efd691871fa8c0f3eee1dba02d2d3074\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\84a96861a4afec3196bf3496adb332ef\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\84a96861a4afec3196bf3496adb332ef\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e4ac9c653fd350bd9485d75188f1b547\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\e4ac9c653fd350bd9485d75188f1b547\AndroidManifest.xml:20:5-44
-MERGED from [com.github.skydoves:colorpickerpreference:1.0.2] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\colorpickerpreference-1.0.2.aar\1b014b7c1f1329c64921ca4a3ee2f56e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.skydoves:colorpickerpreference:1.0.2] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\colorpickerpreference-1.0.2.aar\1b014b7c1f1329c64921ca4a3ee2f56e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ef634f803c27981c66b5d2a011c25892\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\ef634f803c27981c66b5d2a011c25892\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\19cf74ba1cc40cd464a4aaf552bc36a5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\19cf74ba1cc40cd464a4aaf552bc36a5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\0af1112067da8314ddc51bdc63e2704f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\0af1112067da8314ddc51bdc63e2704f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ac73b63490d846ec83e941869f3a571e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\ac73b63490d846ec83e941869f3a571e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\c9ebf43ae935d66b708b427290fd8846\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\c9ebf43ae935d66b708b427290fd8846\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e10f02d745775b9055c878a727a252ce\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e10f02d745775b9055c878a727a252ce\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\6d8283e8db5d0bf6facd46d19ba0c975\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\6d8283e8db5d0bf6facd46d19ba0c975\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f5aa5dc144a858f4019b5f2325b4d9d6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\f5aa5dc144a858f4019b5f2325b4d9d6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c027d45cd7340b656ba42f762d8f9cd2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\c027d45cd7340b656ba42f762d8f9cd2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\157c0ccd0dc297daf0e9499aaf68a562\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\157c0ccd0dc297daf0e9499aaf68a562\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\28cb6c1032cc75759525be3ac5f0397a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\28cb6c1032cc75759525be3ac5f0397a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\99010ba65f8226c96399d48c1d2a9c40\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\99010ba65f8226c96399d48c1d2a9c40\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d0a46d5c358bfab43478527d98ba25aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d0a46d5c358bfab43478527d98ba25aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\18a1dfc1c97b8dd67665a132eee98526\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\18a1dfc1c97b8dd67665a132eee98526\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b5d472e7009ccc7c3905f83718c7c31\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\4b5d472e7009ccc7c3905f83718c7c31\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0bd0869973feb28ed71114a2a352a3f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\0bd0869973feb28ed71114a2a352a3f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\edd3adc6d4b973f346b5b334b9c3f015\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\edd3adc6d4b973f346b5b334b9c3f015\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1de06fddba3ae75b6d9cce633aaf00c0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1de06fddba3ae75b6d9cce633aaf00c0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\a972ff65921e7956e9245001f888f333\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\a972ff65921e7956e9245001f888f333\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\9b4e54d75dc16996be97de0fc846cbdc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\9b4e54d75dc16996be97de0fc846cbdc\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\e81ca8adf1a290ad7692bee81cd8b34f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\e81ca8adf1a290ad7692bee81cd8b34f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\224b21129355a0c6eb376374bb5911e6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\224b21129355a0c6eb376374bb5911e6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\550eaf701634f3d1623060bf748f62f0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\550eaf701634f3d1623060bf748f62f0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\2bada2ee02bc2a20bc07a70d10ff178f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\2bada2ee02bc2a20bc07a70d10ff178f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\1d413472ee22604cac5f9e2065ae4925\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\1d413472ee22604cac5f9e2065ae4925\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cf07acfdc085f90f6034278790b3af9f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\cf07acfdc085f90f6034278790b3af9f\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
+INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
+INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
+MERGED from [:spotify-app-remote] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-app-remote-release-0.6.0.aar/d7ae8bdf7b3e8150f3d558cd30bb5892/AndroidManifest.xml:27:5-29:41
+MERGED from [:spotify-app-remote] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-app-remote-release-0.6.0.aar/d7ae8bdf7b3e8150f3d558cd30bb5892/AndroidManifest.xml:27:5-29:41
+MERGED from [com.github.kaaes:spotify-web-api-android:0.4.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-web-api-android-0.4.1.aar/b5ac7d2a80ea127422307337647a5e7b/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.kaaes:spotify-web-api-android:0.4.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-web-api-android-0.4.1.aar/b5ac7d2a80ea127422307337647a5e7b/AndroidManifest.xml:6:5-8:41
+MERGED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:27:5-29:41
+MERGED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:27:5-29:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/22f5722e3ce46d6d6cf7ec2db9a88197/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/22f5722e3ce46d6d6cf7ec2db9a88197/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/iguest/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/96f2487e669ffaee50cc665c69b1c844/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/iguest/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/96f2487e669ffaee50cc665c69b1c844/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/68c4feedc4eefaaa18bf2b8292fe89e3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/68c4feedc4eefaaa18bf2b8292fe89e3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cf468e1af9ffe57e49f0f4ee72ab2fa0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cf468e1af9ffe57e49f0f4ee72ab2fa0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/4db71d979095cdea6de9bd1374b0ce8d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/4db71d979095cdea6de9bd1374b0ce8d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/3ab6bd58ce511ed32210085db5fa4ab1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/3ab6bd58ce511ed32210085db5fa4ab1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a5b0a1fe6cc98c75516c01100721a473/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a5b0a1fe6cc98c75516c01100721a473/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fbe324cd14174490207808fe5dd31e78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fbe324cd14174490207808fe5dd31e78/AndroidManifest.xml:20:5-44
+MERGED from [com.github.skydoves:colorpickerpreference:1.0.2] /Users/iguest/.gradle/caches/transforms-1/files-1.1/colorpickerpreference-1.0.2.aar/583f098f53fbf030516c78897ecca43f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.skydoves:colorpickerpreference:1.0.2] /Users/iguest/.gradle/caches/transforms-1/files-1.1/colorpickerpreference-1.0.2.aar/583f098f53fbf030516c78897ecca43f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3895e70d20ec4831e08a7e926cee905a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3895e70d20ec4831e08a7e926cee905a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0d55ed4444e6b0f81d295c7f052a7708/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0d55ed4444e6b0f81d295c7f052a7708/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1e9ac4e4daa846aab1c2ada4938bfd51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/1e9ac4e4daa846aab1c2ada4938bfd51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/3546d61e2b3718b40794612e42dcaf33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/3546d61e2b3718b40794612e42dcaf33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d80ab94021b1df2c0dcc5846c2a8070e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d80ab94021b1df2c0dcc5846c2a8070e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/89dbdd34af7d6966f92259967e72a9bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/89dbdd34af7d6966f92259967e72a9bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/83b64008b1564c048534953e19d2a920/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/83b64008b1564c048534953e19d2a920/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/95b8f57a99e9d0ea95e4bfe2c9a341ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/95b8f57a99e9d0ea95e4bfe2c9a341ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/354317e223e574bd5e4798bcf52dda0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/354317e223e574bd5e4798bcf52dda0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/7626041b566ff390648489760c2e09bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/7626041b566ff390648489760c2e09bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/eaed94e0c3fdd648cda5f2da3cfffce1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/eaed94e0c3fdd648cda5f2da3cfffce1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/380facd3688727e2ece76a0bd1df31a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/380facd3688727e2ece76a0bd1df31a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/1e7563a6994d00bfad4ad10f9da4fe63/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/1e7563a6994d00bfad4ad10f9da4fe63/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/15744f571967a5b22fc2ad218a2fd216/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/15744f571967a5b22fc2ad218a2fd216/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a13e7261f4ec83aa1837f7c13724bf4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a13e7261f4ec83aa1837f7c13724bf4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a09da31bb567f76399b2df02e340f0aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/a09da31bb567f76399b2df02e340f0aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/cb0b87f182e1519559bfd911d3908cfd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/cb0b87f182e1519559bfd911d3908cfd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8e8abd1140f4e83742b0cc05fa95dcf3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8e8abd1140f4e83742b0cc05fa95dcf3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6370691f32a5f6c7e89710576970fc79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6370691f32a5f6c7e89710576970fc79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3532e253aef808f10449f0913ce88e96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/3532e253aef808f10449f0913ce88e96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/885be5ce5c5adff0da3e803664257259/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/885be5ce5c5adff0da3e803664257259/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/85f806b13d151e897b8e3daad1c074ef/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/85f806b13d151e897b8e3daad1c074ef/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/88c6c00b46abade0656518be174eb775/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/88c6c00b46abade0656518be174eb775/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d5e8eeb76d87ce6d2e66b33bfc147d39/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d5e8eeb76d87ce6d2e66b33bfc147d39/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6f8835b275d6f9e338a6bf4c57d83c5a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/6f8835b275d6f9e338a6bf4c57d83c5a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8478e5566f240a21791ef658b28bc796/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8478e5566f240a21791ef658b28bc796/AndroidManifest.xml:20:5-44
+INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
+INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Brandon\Desktop\info448\final\AvidRunner\AvidRunner\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
+		ADDED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:31:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:24:5-67
+ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:31:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:31:22-64
+		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:31:22-64
 activity#com.spotify.sdk.android.authentication.AuthCallbackActivity
-ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:34:9-48:20
+ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:34:9-48:20
 	android:exported
-		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:36:13-36
+		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:36:13-36
 	android:theme
-		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:37:13-72
+		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:37:13-72
 	android:name
-		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:35:13-87
+		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:35:13-87
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/com_spotify_sdk_redirect_host+data:scheme:@string/com_spotify_sdk_redirect_scheme
-ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:38:13-47:29
+ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:38:13-47:29
 action#android.intent.action.VIEW
-ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:39:17-69
+ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:39:25-66
+		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:39:25-66
 category#android.intent.category.DEFAULT
-ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:41:17-76
+ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:41:17-76
 	android:name
-		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:41:27-73
+		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:41:27-73
 category#android.intent.category.BROWSABLE
-ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:42:17-78
+ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:42:17-78
 	android:name
-		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:42:27-75
+		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:42:27-75
 data
-ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:44:17-46:80
+ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:44:17-46:80
 	android:host
-		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:45:21-73
+		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:45:21-73
 	android:scheme
-		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\spotify-auth-1.1.0.aar\6ec6d4d72d8b4ad22289fbc1589c74cb\AndroidManifest.xml:46:21-77
+		ADDED from [com.spotify.sdk:spotify-auth:1.1.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/AndroidManifest.xml:46:21-77
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:23:5-79
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:23:22-76
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:23:22-76
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\c8f28e199076891ddc16595bfc5301a3\AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ded504e45dc69812469a9f61dd472736/AndroidManifest.xml:28:9-32
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9c878029b4e2a487d3caed168961bf89\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cf468e1af9ffe57e49f0f4ee72ab2fa0/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9c878029b4e2a487d3caed168961bf89\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cf468e1af9ffe57e49f0f4ee72ab2fa0/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9c878029b4e2a487d3caed168961bf89\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cf468e1af9ffe57e49f0f4ee72ab2fa0/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\9c878029b4e2a487d3caed168961bf89\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cf468e1af9ffe57e49f0f4ee72ab2fa0/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\84a96861a4afec3196bf3496adb332ef\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a5b0a1fe6cc98c75516c01100721a473/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\84a96861a4afec3196bf3496adb332ef\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a5b0a1fe6cc98c75516c01100721a473/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Brandon\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\84a96861a4afec3196bf3496adb332ef\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a5b0a1fe6cc98c75516c01100721a473/AndroidManifest.xml:24:13-58

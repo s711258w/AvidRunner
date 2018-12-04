@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.spotify.sdk:spotify-auth-1.1.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/6ec6d4d72d8b4ad22289fbc1589c74cb/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/6ec6d4d72d8b4ad22289fbc1589c74cb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/spotify-auth-1.1.0.aar/06f6a876b68148f9d619b8b76c08b819/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

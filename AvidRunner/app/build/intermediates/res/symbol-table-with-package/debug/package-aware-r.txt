@@ -924,6 +924,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id text_detail_date
 id text_detail_distance
+id text_detail_pace
 id text_detail_time
 id text_history_date
 id text_history_distance

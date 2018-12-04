@@ -15,7 +15,7 @@ class RunDetailFragment: Fragment() {
     companion object {
         val RUN_PARCEL_KEY = "run_parcel"
 
-        fun newInstance(run: RunData): RunDetailFragment {
+        fun newInstance(run: RunHistoryData): RunDetailFragment {
             val args = Bundle().apply {
                 putParcelable(RUN_PARCEL_KEY, run)
             }
@@ -36,14 +36,15 @@ class RunDetailFragment: Fragment() {
 
         Log.v(TAG, "inside oncreate")
         arguments?.let {
-            val runData = it.getParcelable<RunData>(RUN_PARCEL_KEY)
+            val runData = it.getParcelable<RunHistoryData>(RUN_PARCEL_KEY)
             runData?.let {
-                Log.v(TAG, "rundata date was ${runData.date}")
-                rootView.text_detail_date.text = "Date: ${runData.date}"
-                rootView.text_detail_distance.text = "Distance: ${runData.distance}"
-                rootView.text_detail_time.text = "Time: ${runData.time}"
+                Log.v(TAG, "rundata date was ${runData.runDate}")
+                rootView.text_detail_date.text = "Date: ${runData.runDate}"
+                rootView.text_detail_distance.text = "Distance: ${runData.miles}"
+                rootView.text_detail_time.text = "Time: ${runData.runTime}"
+                rootView.text_detail_pace.text = "Pace: ${runData.milePace}"
             }
-            Log.v(TAG, "Route data is ${runData.routeData}")
+            Log.v(TAG, "Route data is ${runData.geoJSON}")
         }
         return rootView
     }

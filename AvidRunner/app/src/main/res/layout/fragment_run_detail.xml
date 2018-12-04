@@ -47,6 +47,17 @@ android:background="@color/white">
                       android:textSize="30sp"
 
             />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/text_detail_pace"
+                android:text="pace"
+                android:textSize="30sp"
+
+                />
+
+
+
         </LinearLayout>
 
 

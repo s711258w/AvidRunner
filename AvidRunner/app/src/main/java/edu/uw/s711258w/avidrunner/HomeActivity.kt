@@ -21,7 +21,7 @@ class HomeActivity: AppCompatActivity() {
 
     private val mContext: Context = this@HomeActivity
 
-    private val runDataList: MutableList<RunData>  = mutableListOf()
+    private val runDataList: MutableList<RunHistoryData>  = mutableListOf()
 
 
 
@@ -86,10 +86,10 @@ class HomeActivity: AppCompatActivity() {
     }
 
     // generates a list of dummy run data
-    fun getDummyData(): List<RunData> {
-        val result = mutableListOf<RunData>()
+    fun getDummyData(): List<RunHistoryData> {
+        val result = mutableListOf<RunHistoryData>()
         for(i in 0..30) {
-            result.add(RunData("date:$i", "distance:$i", "time:$i", "routeData:$i"))
+            result.add(RunHistoryData("runTime: $i", "rundate $i", "runpace $i", "miles $i", "geojson $i"))
         }
         return result.toList()
     }
@@ -122,7 +122,7 @@ class HomeActivity: AppCompatActivity() {
 
 open class RunDataAdapter(context: Context,
                           resource: Int,
-                          runDataList: MutableList<RunData>): ArrayAdapter<RunData>(context, resource, runDataList){
+                          runDataList: MutableList<RunHistoryData>): ArrayAdapter<RunHistoryData>(context, resource, runDataList){
     private val TAG: String = "RunDataAdapter"
 
     private lateinit var viewHolder: ViewHolder
@@ -143,10 +143,11 @@ open class RunDataAdapter(context: Context,
 
 
         // Get run data
-        val runDataAtIndex: RunData = getItem(position)
-        val runDate = runDataAtIndex.date
-        val runDistance = runDataAtIndex.distance
-        val runTime = runDataAtIndex.time
+        val runDataAtIndex: RunHistoryData = getItem(position)
+        val runDate = runDataAtIndex.runDate
+        val runDistance = runDataAtIndex.miles
+        val runTime = runDataAtIndex.runTime
+        val runPace = runDataAtIndex.milePace
 
         // Set view holder fields to data
         viewHolder.textViewRunDate.text = runDate
@@ -164,12 +165,20 @@ open class RunDataAdapter(context: Context,
     )
 }
 
-data class RunData(val date: String, val distance: String, val time: String, val routeData: Any):Parcelable {
-    constructor(parcel: Parcel): this(
+data class RunHistoryData(
+        val runTime: String,
+        val runDate: String,
+        val milePace: String,
+        val miles: String,
+        val geoJSON: String
+): Parcelable {
+    constructor(parcel: Parcel) : this(
         parcel.readString(),
-        parcel.readString(),
-        parcel.readString(),
-        parcel.readString()
+            parcel.readString(),
+            parcel.readString(),
+            parcel.readString(),
+            parcel.readString()
+
     ) {
     }
 
@@ -181,14 +190,13 @@ data class RunData(val date: String, val distance: String, val time: String, val
         return 0
     }
 
-    companion object CREATOR : Parcelable.Creator<RunData> {
-        override fun createFromParcel(parcel: Parcel): RunData {
-            return RunData(parcel)
+    companion object CREATOR : Parcelable.Creator<RunHistoryData> {
+        override fun createFromParcel(parcel: Parcel): RunHistoryData {
+            return RunHistoryData(parcel)
         }
 
-        override fun newArray(size: Int): Array<RunData?> {
+        override fun newArray(size: Int): Array<RunHistoryData?> {
             return arrayOfNulls(size)
         }
     }
-
 }

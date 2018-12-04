@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Brandon\\Desktop\\info448\\final\\AvidRunner\\AvidRunner\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my\\values-my.xml",
+            "outputFile": "/Users/iguest/Desktop/info448final/AvidRunner/AvidRunner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Brandon\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\9c878029b4e2a487d3caed168961bf89\\res\\values-my\\values.xml",
+                    "source": "/Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/cf468e1af9ffe57e49f0f4ee72ab2fa0/res/values-my/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Brandon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\75424dd7737a278948f61802674ad489\\res\\values-my\\values-my.xml",
+                    "source": "/Users/iguest/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/22f5722e3ce46d6d6cf7ec2db9a88197/res/values-my/values-my.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Brandon\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4b5d472e7009ccc7c3905f83718c7c31\\res\\values-my\\values-my.xml",
+                    "source": "/Users/iguest/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/5a13e7261f4ec83aa1837f7c13724bf4/res/values-my/values-my.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Brandon\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\84a96861a4afec3196bf3496adb332ef\\res\\values-my\\values.xml",
+                    "source": "/Users/iguest/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a5b0a1fe6cc98c75516c01100721a473/res/values-my/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
