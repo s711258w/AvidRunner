@@ -416,6 +416,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -486,6 +487,7 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -688,6 +690,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable border
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -711,6 +714,9 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_music
+drawable ic_run
+drawable ic_sun
 drawable layout_bg
 drawable notification_action_background
 drawable notification_bg
@@ -768,6 +774,10 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id button_calendar
+id button_music
+id button_run
+id buttons_main
 id cancel_action
 id center
 id center_horizontal
@@ -909,6 +919,9 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id text_history_date
+id text_history_distance
+id text_history_time
 id time
 id times
 id title
@@ -959,11 +972,13 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_home
 layout activity_main
 layout activity_maps
 layout activity_playlist
 layout com_spotify_sdk_login_activity
 layout com_spotify_sdk_login_dialog
+layout item_history
 layout layout_colorpicker_preference
 layout layout_dialog_colorpicker
 layout list_item

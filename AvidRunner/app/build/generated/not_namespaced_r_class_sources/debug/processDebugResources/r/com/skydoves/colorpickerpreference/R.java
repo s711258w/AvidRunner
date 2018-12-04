@@ -24,20 +24,20 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int palette = 0x7f070079;
-        public static final int wheel = 0x7f07007c;
+        public static final int palette = 0x7f07007d;
+        public static final int wheel = 0x7f070080;
     }
     public static final class id {
         private id() {}
 
         public static final int ColorPickerView = 0x7f080002;
-        public static final int colorpicker_preference_colorbox = 0x7f080033;
+        public static final int colorpicker_preference_colorbox = 0x7f080037;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int layout_colorpicker_preference = 0x7f0a0021;
-        public static final int layout_dialog_colorpicker = 0x7f0a0022;
+        public static final int layout_colorpicker_preference = 0x7f0a0023;
+        public static final int layout_dialog_colorpicker = 0x7f0a0024;
     }
     public static final class string {
         private string() {}

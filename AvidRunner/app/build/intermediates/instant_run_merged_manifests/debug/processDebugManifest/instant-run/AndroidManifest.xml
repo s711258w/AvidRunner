@@ -37,11 +37,6 @@
             android:value="@string/google_maps_key" />
 
         <activity android:name="edu.uw.s711258w.avidrunner.MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="edu.uw.s711258w.avidrunner.SettingsActivity"
@@ -64,6 +59,13 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="edu.uw.s711258w.avidrunner.MainActivity" />
+        </activity>
+        <activity android:name="edu.uw.s711258w.avidrunner.HomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.spotify.sdk.android.authentication.LoginActivity"

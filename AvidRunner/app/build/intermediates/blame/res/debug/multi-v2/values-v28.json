@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Ian/Informatics/INFO448/AvidRunner/AvidRunner/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
+            "outputFile": "C:\\Users\\Brandon\\Desktop\\info448\\final\\AvidRunner\\AvidRunner\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/Ian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/93b06c1771f8684b7352e744e1cc258f/res/values-v28/values-v28.xml",
+                    "source": "C:\\Users\\Brandon\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\75424dd7737a278948f61802674ad489\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

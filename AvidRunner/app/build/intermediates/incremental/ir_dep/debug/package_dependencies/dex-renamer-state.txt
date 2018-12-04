@@ -1,4 +1,4 @@
-#Mon Dec 03 14:45:08 PST 2018
-base.0=/Users/Ian/Informatics/INFO448/AvidRunner/AvidRunner/app/build/intermediates/transforms/dexMerger/debug/10
+#Mon Dec 03 18:57:44 PST 2018
+base.0=C\:\\Users\\Brandon\\Desktop\\info448\\final\\AvidRunner\\AvidRunner\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.0=classes.dex
 renamed.0=classes.dex
