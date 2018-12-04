@@ -143,6 +143,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 linesList.add(line!!)
 
                 val geoJson = convertToGeoJson(linesList)
+                Log.v(TAG, geoJson)
                 val intent = Intent(this, MapSavingService::class.java)
                 intent.putExtra("data", geoJson)
                 startService(intent)

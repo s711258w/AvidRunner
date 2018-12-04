@@ -83,7 +83,7 @@ fun convertFromGeoJson(geojson: String): List<PolylineOptions> {
             .add(start)
             .add(end)
             .color(color)
-            .width(width)
+            .width(20f)
         polyLineList.add(line)
     }
     return polyLineList
