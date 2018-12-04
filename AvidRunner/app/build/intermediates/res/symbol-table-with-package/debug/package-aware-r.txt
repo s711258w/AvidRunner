@@ -802,6 +802,7 @@ id dark
 id date_spinner
 id decor_content_parent
 id default_activity_button
+id detail_map
 id dimensions
 id direct
 id disableHome
