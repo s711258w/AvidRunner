@@ -23,6 +23,8 @@ class HomeActivity: AppCompatActivity() {
 
     private val runDataList: MutableList<RunHistoryData>  = mutableListOf()
 
+    private lateinit var tinydb: TinyDB
+
 
 
 
@@ -42,6 +44,8 @@ class HomeActivity: AppCompatActivity() {
             Log.v(TAG, "run clicked")
             startActivity(Intent(this, MapsActivity::class.java))
         }
+
+        tinydb = TinyDB(this)
 
         var listView = list_run_history
         listView.setOnItemClickListener { parent, view, position, id ->
@@ -69,20 +73,29 @@ class HomeActivity: AppCompatActivity() {
         getRunData()
     }
 
-    // Gets the run data
-    // TODO: Need data from running activity (MapsActivity)
+    // Gets the run data, render in list
     fun getRunData() {
         runDataList.clear()
         adapter.notifyDataSetChanged()
 
-        // TODO: Need data from running activity (MapsActivity) to be saved
+
+        var allRuns: ArrayList<Any> = tinydb.getListObject("allRuns", RunHistoryData::class.java)
+
+        for (run in allRuns) {
+            try {
+                runDataList.add(run as RunHistoryData)
+                adapter.notifyDataSetChanged()
+            } catch (exception: Exception) {
+                Log.v(TAG, "There was an exception converting the allRuns to RunHistory object")
+            }
+        }
 
         // using dummy data for now
-        val list = getDummyData()
-        for (item in list) {
-            runDataList.add(item)
-            adapter.notifyDataSetChanged()
-        }
+//        val list = getDummyData()
+//        for (item in list) {
+//            runDataList.add(item)
+//            adapter.notifyDataSetChanged()
+//        }
     }
 
     // generates a list of dummy run data
